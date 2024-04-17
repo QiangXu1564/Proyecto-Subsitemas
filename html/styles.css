@@ -3,8 +3,216 @@ body{
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    line-height: 0px;
 }
 
 .Top{
+    margin-left: 5.7vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.Logo-hyperloop{
+    width: 7vw;
+}
+
+.Hyperloop{
+    font-size: 3.4vw;
+}
+
+.Bottom{
+    margin-left: 6.5vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    font-size: 2vw;
+    color: black;
+}
+
+.container-left{
+    margin-top: 0.4vw;
+    margin-right: 4.5vw;
+}
+
+.container-right{
+    margin-top: 0.4vw;
+}
+
+.container-airgap{
+    border-radius: 1.3vw;
+    height: 18vw;
+    width: 40vw;
+    background-color: #e8e7e7;
+
+    display: flex;
+    flex-flow: row;
+}
+
+.left-airgap{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.top-airgap{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
     
+    margin-left: 1.2vw;
+}
+
+.Airgap-img{
+    width: 4.5vw;  
+}
+
+.Airgap-img-edit{
+    background-color: #ED8A23;
+    border-radius: 100vw;
+
+    margin-top: 1.2vw;
+    height: 4vw;
+    width: 4vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.airgap-name{
+    font-size: 2.8vw;
+    margin-top: 3vw;
+    margin-left: 0.8vw;
+}
+
+
+
+.container-speed{
+    border-radius: 1.3vw;
+    height: 18vw;
+    width: 40vw;
+    background-color: #e8e7e7;
+
+    display: flex;
+    flex-flow: row;
+    margin-top: 1.5vw;
+}
+
+.top-speed{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+    margin-left: 1.2vw;
+}
+
+.Speed-img{
+    width: 5.5vw;  
+}
+
+.Speed-img-edit{
+    background-color: #ED8A23;
+    border-radius: 100vw;
+
+    margin-top: 1.2vw;
+    height: 4vw;
+    width: 4vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.speed-name{
+    font-size: 2.8vw;
+    margin-top: 3vw;
+    margin-left: 0.8vw;
+}
+
+.container-current{
+    border-radius: 1.3vw;
+    height: 18vw;
+    width: 40vw;
+    background-color: #e8e7e7;
+
+    display: flex;
+    flex-flow: row;
+}
+
+.top-current{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+    margin-left: 1.2vw;
+}
+
+.Current-img{
+    width: 6vw;  
+}
+
+.Current-img-edit{
+    background-color: #ED8A23;
+    border-radius: 100vw;
+
+    margin-top: 1.2vw;
+    height: 4vw;
+    width: 4vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.current-name{
+    font-size: 2.8vw;
+    margin-top: 3vw;
+    margin-left: 0.8vw;
+}
+
+.container-voltage{
+    border-radius: 1.3vw;
+    height: 18vw;
+    width: 40vw;
+    background-color: #e8e7e7;
+
+    display: flex;
+    flex-flow: row;
+    margin-top: 1.5vw;
+}
+
+.top-voltage{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    
+    margin-left: 1.2vw;
+}
+
+.Voltage-img{
+    width: 6vw;
+    margin-bottom: 0.7vw;  
+}
+
+.Voltage-img-edit{
+    background-color: #ED8A23;
+    border-radius: 100vw;
+
+    margin-top: 1.2vw;
+    height: 4vw;
+    width: 4vw;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltage-name{
+    font-size: 2.8vw;
+    margin-top: 3vw;
+    margin-left: 0.8vw;
 }
