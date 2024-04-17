@@ -89,7 +89,23 @@ body{
     margin-left: 0.8vw;
 }
 
+.airgap-data{
+    font-size: 1.6vw;
+    width: 15vw;
+    height: 10vw;
+    border-style: solid;
+    border-color: #de7018;
+    color: #7d3411;
 
+    margin-top: 1vw;
+    margin-left: 1.3vw;
+    padding: 0px;
+    border-radius: 1vw;
+}
+
+.airgap-data-info{
+    margin-left: 1vw;
+}
 
 .container-speed{
     border-radius: 1.3vw;
@@ -99,7 +115,7 @@ body{
 
     display: flex;
     flex-flow: row;
-    margin-top: 1.5vw;
+    margin-top: 1.7vw;
 }
 
 .top-speed{
@@ -131,6 +147,24 @@ body{
     font-size: 2.8vw;
     margin-top: 3vw;
     margin-left: 0.8vw;
+}
+
+.speed-data{
+    font-size: 1.6vw;
+    width: 15vw;
+    height: 10vw;
+    border-style: solid;
+    border-color: #de7018;
+    color: #7d3411;
+
+    margin-top: 1vw;
+    margin-left: 1.3vw;
+    padding: 0px;
+    border-radius: 1vw;
+}
+
+.speed-data-info{
+    margin-left: 1vw;
 }
 
 .container-current{
@@ -174,6 +208,24 @@ body{
     margin-left: 0.8vw;
 }
 
+.current-data{
+    font-size: 1.6vw;
+    width: 15vw;
+    height: 10vw;
+    border-style: solid;
+    border-color: #de7018;
+    color: #7d3411;
+
+    margin-top: 1vw;
+    margin-left: 1.3vw;
+    padding: 0px;
+    border-radius: 1vw;
+}
+
+.current-data-info{
+    margin-left: 1vw;
+}
+
 .container-voltage{
     border-radius: 1.3vw;
     height: 18vw;
@@ -182,7 +234,7 @@ body{
 
     display: flex;
     flex-flow: row;
-    margin-top: 1.5vw;
+    margin-top: 1.7vw;
 }
 
 .top-voltage{
@@ -215,4 +267,22 @@ body{
     font-size: 2.8vw;
     margin-top: 3vw;
     margin-left: 0.8vw;
+}
+
+.voltage-data{
+    font-size: 1.6vw;
+    width: 15vw;
+    height: 10vw;
+    border-style: solid;
+    border-color: #de7018;
+    color:#7d3411;
+
+    margin-top: 1vw;
+    margin-left: 1.3vw;
+    padding: 0px;
+    border-radius: 1vw;
+}
+
+.voltage-data-info{
+    margin-left: 1vw;
 }
