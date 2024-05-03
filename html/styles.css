@@ -101,10 +101,32 @@ body{
     margin-left: 1.3vw;
     padding: 0px;
     border-radius: 1vw;
+    display: inline-block;
+    overflow-y: scroll;
+    overscroll-behavior-x: none;
+    scroll-snap-type: x proximity;
+}
+
+.airgap-data::-webkit-scrollbar {
+    display: none;
+}
+
+
+#airgap-data p{
+    margin-top: 1.8vw;
+    margin-left: 1vw;
+    font-size: 1.2vw
 }
 
 .airgap-data-info{
     margin-left: 1vw;
+}
+
+.right-airgap{
+    margin-left: 1vw;
+    margin-top: 6.3vw;
+    width: 22vw;
+    height: 30vw;
 }
 
 .container-speed{
@@ -161,10 +183,31 @@ body{
     margin-left: 1.3vw;
     padding: 0px;
     border-radius: 1vw;
+    display: inline-block;
+    overflow-y: scroll;
+    overscroll-behavior-x: none;
+    scroll-snap-type: x proximity;
+}
+
+.speed-data::-webkit-scrollbar {
+    display: none;
+}
+
+#speed-data p{
+    margin-top: 1.8vw;
+    margin-left: 1vw;
+    font-size: 1.2vw
 }
 
 .speed-data-info{
     margin-left: 1vw;
+}
+
+.right-speed{
+    margin-left: 1vw;
+    margin-top: 6.3vw;
+    width: 22vw;
+    height: 30vw;
 }
 
 .container-current{
@@ -220,10 +263,33 @@ body{
     margin-left: 1.3vw;
     padding: 0px;
     border-radius: 1vw;
+    display: inline-block;
+    overflow-y: scroll;
+    overscroll-behavior-x: none;
+    scroll-snap-type: x proximity;
 }
+
+.current-data::-webkit-scrollbar {
+    display: none;
+}
+
+
+#current-data p{
+    margin-top: 1.8vw;
+    margin-left: 1vw;
+    font-size: 1.2vw
+}
+
 
 .current-data-info{
     margin-left: 1vw;
+}
+
+.right-current{
+    margin-left: 1vw;
+    margin-top: 6.3vw;
+    width: 22vw;
+    height: 30vw;
 }
 
 .container-voltage{
@@ -281,8 +347,30 @@ body{
     margin-left: 1.3vw;
     padding: 0px;
     border-radius: 1vw;
+    display: inline-block;
+    overflow-y: scroll;
+    overscroll-behavior-x: none;
+    scroll-snap-type: x proximity;
+}
+
+.voltage-data::-webkit-scrollbar {
+    display: none;
+}
+
+
+#voltage-data p{
+    margin-top: 1.8vw;
+    margin-left: 1vw;
+    font-size: 1.2vw
 }
 
 .voltage-data-info{
     margin-left: 1vw;
+}
+
+.right-voltage{
+    margin-left: 1vw;
+    margin-top: 6.3vw;
+    width: 22vw;
+    height: 30vw;
 }

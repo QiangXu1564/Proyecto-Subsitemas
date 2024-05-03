@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <link rel = "stylesheet" href = "styles.css" >
     <title>Hyperloop</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
 </head>
 <body>
     <div class="Top">
         <img src="Logo Hyperloop.png" class="Logo-hyperloop">
-        <h1 class="Hyperloop">Hyperloop</h1>
+        <h1 class="Hyperloop">Hyperloop UPV</h1>
     </div>
     <div class="Bottom">
         <div class="container-left">
@@ -20,9 +21,12 @@
                         </div>
                         <h2 class="airgap-name">AirGap</h2>
                     </div>
-                    <div class="airgap-data">
-                        <h3 class="airgap-data-info">Data</h3>
+                    <div class="airgap-data" id="airgap-data">
+                        <h3 class="airgap-data-info">Data: </h3>
                     </div>
+                </div>
+                <div class="right-airgap">
+                    <canvas id="airgap-canvas"></canvas>
                 </div>
             </div>
             <div class="container-speed">
@@ -33,9 +37,12 @@
                         </div>
                         <h2 class="speed-name">Speed</h2>
                     </div>
-                    <div class="speed-data">
+                    <div class="speed-data" id="speed-data">
                         <h3 class="speed-data-info">Data</h3>
                     </div>
+                </div>
+                <div class="right-speed">
+                    <canvas id="speed-canvas"></canvas>
                 </div>
             </div>
         </div>
@@ -48,9 +55,12 @@
                         </div>
                         <h2 class="current-name">Current</h2>
                     </div>
-                    <div class="current-data">
+                    <div class="current-data" id="current-data">
                         <h3 class="current-data-info">Data</h3>
                     </div>
+                </div>
+                <div class="right-current">
+                    <canvas id="current-canvas"></canvas>
                 </div>
             </div>
             <div class="container-voltage">
@@ -61,12 +71,20 @@
                         </div>
                         <h2 class="voltage-name">Voltage</h2>
                     </div>
-                    <div class="voltage-data">
+                    <div class="voltage-data" id="voltage-data">
                         <h3 class="voltage-data-info">Data</h3>
                     </div>
+                </div>
+                <div class="right-voltage">
+                    <canvas id="voltage-canvas"></canvas>
                 </div>
             </div>
         </div>
     </div>
+    <button id="buttonprueba">Hola</button>
+    <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+    <script src="clientserverudp.js" charset="utf-8"></script>
+
 </body>
-</html> 
+</html>
