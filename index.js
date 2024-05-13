@@ -22,19 +22,16 @@ const io = socketio(server);
 let arraydatos = new Array();
 let n = 0;
 
-//Conexión con el cliente websocket
-io.on('connection', (socket) => {
-    console.log('New connection', socket.id);
-    for(let i = 0; i < n; i++){
-        socket.emit('dataclient', arraydatos[i]);
-    }
-    socket.emit('serverdate', serverdate.getTime());
-})
+const nombreArchivo = 'datos.json';
+function guardarDatos(Datos, nombreArchivo) {
+    writeFile.writeFile(nombreArchivo, Datos, { spaces: 2 });
+}
 
 //Conexión con el servidor udp
 client.on('message', (msg, rinfo) => {
     console.log(`Datos recibidos desde ${rinfo.address}:${rinfo.port}`);
     const data = JSON.parse(msg);
+    guardarDatos(arraydatos, nombreArchivo);
     let time = Math.floor(Math.abs(serverdate.getTime() - data.timestamp) / 1000);
     data.timestamp = time;
     console.log('Mensaje recibido del servidor:', data);
@@ -50,12 +47,11 @@ client.bind(PORT, SERVER_ADDRESS, () => {
     console.log(`Cliente UDP conectado y escuchando en el puerto ${PORT}`);
 });
 
-function guardarDatos(arrayDatos, nombreArchivo) {
-    writeFile.writeFile(nombreArchivo, arrayDatos, { spaces: 2 });
-}
-
-const nombreArchivo = 'datos.json';
-process.on('SIGINT', () => {
-    guardarDatos(arraydatos, nombreArchivo);
-    process.exit(0);
-});
+//Conexión con el cliente websocket
+io.on('connection', (socket) => {
+    console.log('New connection', socket.id);
+    for(let i = 0; i < n; i++){
+        socket.emit('dataclient', arraydatos[i]);
+    }
+    socket.emit('serverdate', serverdate.getTime());
+})

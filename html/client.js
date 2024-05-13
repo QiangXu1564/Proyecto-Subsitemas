@@ -11,53 +11,19 @@ let voltagedata = document.getElementById('voltage-data');
 
 let buttonprueba = document.getElementById('buttonprueba');
 
-var arrairgap = new Array();
-var nairgap = 0;
+var serverdate;
+socket.on('serverdate', function(data){
+    serverdate = data;
+});
 
-var arrspeed = new Array();
-var nspeed = 0;
-
-var arrcurrent = new Array();
-var ncurrent = 0;
-
-var arrvoltage = new Array();
-var nvoltage = 0;
-
-var n = 1;
-buttonprueba.addEventListener('click', function(){
-    const l = Math.floor(Math.random(5)*10/2) + 1;
-    if(l == 1){
-        socket.emit('pruebaenvio',{
-            nombre: "airgap",
-            valor: Math.floor(Math.random(5)*10/2) + 1,
-            timestamp: n
-        })
-    }
-    else if(l == 2){
-        socket.emit('pruebaenvio',{
-            nombre: "speed",
-            valor: Math.floor(Math.random(5)*10/2) + 1,
-            timestamp: n
-        })
-    }
-    else if(l == 3){
-        socket.emit('pruebaenvio',{
-            nombre: "current",
-            valor: Math.floor(Math.random(5)*10/2) + 1,
-            timestamp: n
-        })
-    }
-    else if(l == 4){
-        socket.emit('pruebaenvio',{
-            nombre: "voltage",
-            valor: Math.floor(Math.random(5)*10/2) + 1,
-            timestamp: n
-        })
-    }
-    n++;
-})
-
+//Actualización de cada gráfica
 function dataairgap(label, dato) {
+    if (airgap.data.labels.length >= 25) {
+        airgap.data.labels.shift(); 
+        airgap.data.datasets.forEach((dataset) => {
+            dataset.data.shift(); 
+        });
+    }
     airgap.data.labels.push(label);
     airgap.data.datasets.forEach((dataset) => {
         dataset.data.push(dato);
@@ -66,6 +32,12 @@ function dataairgap(label, dato) {
 }
 
 function dataspeed(label, dato) {
+    if (speed.data.labels.length >= 25) {
+        speed.data.labels.shift(); 
+        speed.data.datasets.forEach((dataset) => {
+            dataset.data.shift(); 
+        });
+    }
     speed.data.labels.push(label);
     speed.data.datasets.forEach((dataset) => {
         dataset.data.push(dato);
@@ -74,6 +46,12 @@ function dataspeed(label, dato) {
 }
 
 function datacurrent(label, dato) {
+    if (current.data.labels.length >= 25) {
+        current.data.labels.shift(); 
+        current.data.datasets.forEach((dataset) => {
+            dataset.data.shift(); 
+        });
+    }
     current.data.labels.push(label);
     current.data.datasets.forEach((dataset) => {
         dataset.data.push(dato);
@@ -82,6 +60,12 @@ function datacurrent(label, dato) {
 }
 
 function datavoltage(label, dato) {
+    if (voltage.data.labels.length >= 25) {
+        voltage.data.labels.shift(); 
+        voltage.data.datasets.forEach((dataset) => {
+            dataset.data.shift(); 
+        });
+    }
     voltage.data.labels.push(label);
     voltage.data.datasets.forEach((dataset) => {
         dataset.data.push(dato);
@@ -89,47 +73,42 @@ function datavoltage(label, dato) {
     voltage.update();
 }
 
+//Clasificación de cada valor
 socket.on('dataclient', function(data){
     switch(data.nombre){
         case "airgap":
-            arrairgap[nairgap] = data;
-            nairgap++;
             airgapdata.innerHTML += `<p>[Value: ${data.valor} Timestamp: ${data.timestamp}]</p>`;
             dataairgap(data.timestamp, data.valor);
+            socket.emit('received', (data));
             break;
         case "speed":
-            arrspeed[nspeed] = data;
-            nspeed++;
             speeddata.innerHTML += `<p>[Value: ${data.valor} Timestamp: ${data.timestamp}]</p>`;
             dataspeed(data.timestamp, data.valor);
+            socket.emit('received', (data));
             break;
         case "current":
-            arrcurrent[ncurrent] = data;
-            ncurrent++;
             currentdata.innerHTML += `<p>[Value: ${data.valor} Timestamp: ${data.timestamp}]</p>`;
             datacurrent(data.timestamp, data.valor);
+            socket.emit('received', (data));
             break;
         case "voltage":
-            arrvoltage[nvoltage] = data;
-            nvoltage++;
             voltagedata.innerHTML += `<p>[Value: ${data.valor} Timestamp: ${data.timestamp}]</p>`;  
             datavoltage(data.timestamp, data.valor);
+            socket.emit('received', (data));
             break;
         default:
             socket.emit('error', data);
     }
 });
 
+//Gráficas
 const airgap = new Chart(airgapcanvas, {
-    type:"line",
-    data:{
-        datasets:[
-            {
-                backgroundcolor:"#ED8A23",
-                borderColor:"#ED8A23",
-                data: []  
-            }
-        ]
+    type: "line",
+    data: {
+        datasets: [{
+            borderColor: "#ED8A23", 
+            data: []  
+        }]
     },
     options: {
         legend: {
@@ -137,29 +116,51 @@ const airgap = new Chart(airgapcanvas, {
         },
         tooltips: {
             callbacks: {
-               label: function(tooltipItem) {
-                      return tooltipItem.yLabel;
-               }
+                label: function(tooltipItem) {
+                    return tooltipItem.yLabel;
+                }
             }
         },
         scales: {
             xAxes: [{
-              scaleLabel: {
-                display: true,
-                labelString: "Time",
-                fontColor: "orange"
-              }
+                scaleLabel: {
+                    display: true,
+                    labelString: "Time",
+                    fontColor: "#003B4D",
+                    fontSize: "13"
+                }
             }],
             yAxes: [{
-              scaleLabel: {
-                display: true,
-                labelString: "Centimeters",
-                fontColor: "orange"
-              }
+                scaleLabel: {
+                    display: true,
+                    labelString: "Centimeters",
+                    fontColor: "#003B4D",
+                    fontSize: "13"
+                }
             }]
-          }
+        },
+        plugins: {
+            zoom: {
+                pan: {
+                    enabled: true,
+                    mode: 'x',
+                    speed: 10,
+                    threshold: 10
+                },
+                zoom: {
+                    enabled: true,
+                    mode: 'x',
+                    speed: 0.1
+                }
+            }
+        },
+        elements: {
+            line: {
+                backgroundColor: 'rgba(0, 0, 0, 0)'
+            }
+        }
     }
-})
+});
 
 const speed = new Chart(speedcanvas, {
     type:"line",
@@ -188,17 +189,31 @@ const speed = new Chart(speedcanvas, {
               scaleLabel: {
                 display: true,
                 labelString: "Time",
-                fontColor: "orange"
+                fontColor: "#003B4D",
+                fontSize: "13"
               }
             }],
             yAxes: [{
               scaleLabel: {
                 display: true,
                 labelString: "Meters per second",
-                fontColor: "orange"
+                fontColor: "#003B4D",
+                fontSize: "13"
               }
             }]
-          }
+        },
+        plugins: {
+            zoom: {
+                pan: {
+                    enabled: true
+                }
+            }
+        },
+        elements: {
+            line: {
+                backgroundColor: 'rgba(0, 0, 0, 0)'
+            }
+        }
     }
 })
 
@@ -229,17 +244,31 @@ const current = new Chart(currentcanvas, {
               scaleLabel: {
                 display: true,
                 labelString: "Time",
-                fontColor: "orange"
+                fontColor: "#003B4D",
+                fontSize: "13"
               }
             }],
             yAxes: [{
               scaleLabel: {
                 display: true,
                 labelString: "Amps",
-                fontColor: "orange"
+                fontColor: "#003B4D",
+                fontSize: "13"
               }
             }]
-          }
+        },
+        plugins: {
+            zoom: {
+                pan: {
+                    enabled: true
+                }
+            }
+        },
+        elements: {
+            line: {
+                backgroundColor: 'rgba(0, 0, 0, 0)'
+            }
+        }
     }
 })
 
@@ -270,16 +299,30 @@ const voltage = new Chart(voltagecanvas, {
               scaleLabel: {
                 display: true,
                 labelString: "Time",
-                fontColor: "orange"
+                fontColor: "#003B4D",
+                fontSize: "13"
               }
             }],
             yAxes: [{
               scaleLabel: {
                 display: true,
                 labelString: "Volts",
-                fontColor: "orange"
+                fontColor: "#003B4D",
+                fontSize: "13"
               }
             }]
-          }
+        },
+        plugins: {
+            zoom: {
+                pan: {
+                    enabled: true
+                }
+            }
+        },
+        elements: {
+            line: {
+                backgroundColor: 'rgba(0, 0, 0, 0)'
+            }
+        }
     }
 })

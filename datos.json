@@ -1,0 +1,1597 @@
+[
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 3
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 3
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 3
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 3
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 4
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 4
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 4
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 4
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 5
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 5
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 5
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 5
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 6
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 6
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 6
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 6
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 7
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 7
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 7
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 7
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 8
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 8
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 8
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 8
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 9
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 9
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 9
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 9
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 10
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 10
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 10
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 10
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 11
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 11
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 11
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 11
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 12
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 12
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 12
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 12
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 13
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 13
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 13
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 13
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 14
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 14
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 14
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 14
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 15
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 15
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 15
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 15
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 16
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 16
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 16
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 16
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 17
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 17
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 17
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 17
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 18
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 18
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 18
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 18
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 19
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 19
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 19
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 19
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 20
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 20
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 20
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 20
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 21
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 21
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 21
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 21
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 22
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 22
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 22
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 22
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 23
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 23
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 23
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 23
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 24
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 24
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 24
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 24
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 25
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 25
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 25
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 25
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 26
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 26
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 26
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 26
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 27
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 27
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 27
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 27
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 28
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 28
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 28
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 28
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 29
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 29
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 29
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 29
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 30
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 30
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 30
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 30
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 31
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 31
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 31
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 31
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 32
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 32
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 32
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 32
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 33
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 33
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 33
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 33
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 34
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 34
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 34
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 34
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 35
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 35
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 35
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 35
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 36
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 36
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 36
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 36
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 37
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 37
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 37
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 37
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 38
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 38
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 38
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 38
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 39
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 39
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 39
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 39
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 40
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 40
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 40
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 40
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 41
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 41
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 41
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 41
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 42
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 42
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 42
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 42
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 43
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 43
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 43
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 43
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 44
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 44
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 44
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 44
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 45
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 45
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 45
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 45
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 46
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 46
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 46
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 46
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 47
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 47
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 47
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 47
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 48
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 48
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 48
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 48
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 49
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 49
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 49
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 49
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 50
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 50
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 50
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 50
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 51
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 51
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 51
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 51
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 52
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 52
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 52
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 52
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 53
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 53
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 53
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 53
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 54
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 54
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 54
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 54
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 55
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 55
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 55
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 55
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 56
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 56
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 56
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 56
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 57
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 57
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 57
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 57
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 58
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 58
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 58
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 58
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 59
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 59
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 59
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 59
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 60
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 60
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 60
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 60
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 61
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 61
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 61
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 61
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 62
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 62
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 62
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 62
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 63
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 63
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 63
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 63
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 64
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 64
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 64
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 64
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 65
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 65
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 65
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 65
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 66
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 66
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 66
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 66
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 67
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 67
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 67
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 67
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 68
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 68
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 68
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 68
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 69
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 69
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 69
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 69
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 70
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 70
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 70
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 70
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 71
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 71
+  },
+  {
+    "nombre": "current",
+    "valor": 3,
+    "timestamp": 71
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 71
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 73
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 73
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 73
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 73
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 74
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 74
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 74
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 74
+  },
+  {
+    "nombre": "airgap",
+    "valor": 1,
+    "timestamp": 75
+  },
+  {
+    "nombre": "speed",
+    "valor": 5,
+    "timestamp": 75
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 75
+  },
+  {
+    "nombre": "voltage",
+    "valor": 5,
+    "timestamp": 75
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 76
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 76
+  },
+  {
+    "nombre": "voltage",
+    "valor": 2,
+    "timestamp": 76
+  },
+  {
+    "nombre": "current",
+    "valor": 2,
+    "timestamp": 76
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 77
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 77
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 77
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 77
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 78
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 78
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 78
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 78
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 79
+  },
+  {
+    "nombre": "speed",
+    "valor": 2,
+    "timestamp": 79
+  },
+  {
+    "nombre": "voltage",
+    "valor": 1,
+    "timestamp": 79
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 79
+  },
+  {
+    "nombre": "airgap",
+    "valor": 2,
+    "timestamp": 80
+  },
+  {
+    "nombre": "speed",
+    "valor": 3,
+    "timestamp": 80
+  },
+  {
+    "nombre": "current",
+    "valor": 1,
+    "timestamp": 80
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 80
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 81
+  },
+  {
+    "nombre": "airgap",
+    "valor": 4,
+    "timestamp": 81
+  },
+  {
+    "nombre": "voltage",
+    "valor": 4,
+    "timestamp": 81
+  },
+  {
+    "nombre": "current",
+    "valor": 4,
+    "timestamp": 81
+  },
+  {
+    "nombre": "airgap",
+    "valor": 3,
+    "timestamp": 82
+  },
+  {
+    "nombre": "speed",
+    "valor": 4,
+    "timestamp": 82
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 82
+  },
+  {
+    "nombre": "voltage",
+    "valor": 3,
+    "timestamp": 82
+  },
+  {
+    "nombre": "speed",
+    "valor": 1,
+    "timestamp": 83
+  },
+  {
+    "nombre": "current",
+    "valor": 5,
+    "timestamp": 83
+  },
+  {
+    "nombre": "airgap",
+    "valor": 5,
+    "timestamp": 83
+  }
+]

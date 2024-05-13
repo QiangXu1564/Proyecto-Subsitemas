@@ -1,5 +1,5 @@
 body{
-    background-color:#de7018;
+    background-color: #003B4D;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 15px;
@@ -30,7 +30,7 @@ body{
     flex-flow: row;
     align-items: center;
     font-size: 2vw;
-    color: black;
+    color: #333333;
 }
 
 .container-left{
@@ -46,7 +46,7 @@ body{
     border-radius: 1.3vw;
     height: 18vw;
     width: 40vw;
-    background-color: #e8e7e7;
+    background-color: #DCE3EB;
 
     display: flex;
     flex-flow: row;
@@ -71,7 +71,7 @@ body{
 }
 
 .Airgap-img-edit{
-    background-color: #ED8A23;
+    background-color: #EE7623;
     border-radius: 100vw;
 
     margin-top: 1.2vw;
@@ -90,12 +90,12 @@ body{
 }
 
 .airgap-data{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     width: 15vw;
     height: 10vw;
     border-style: solid;
-    border-color: #de7018;
-    color: #7d3411;
+    border-color: #003B4D;
+    color: #ab481a;
 
     margin-top: 1vw;
     margin-left: 1.3vw;
@@ -115,7 +115,7 @@ body{
 #airgap-data p{
     margin-top: 1.8vw;
     margin-left: 1vw;
-    font-size: 1.2vw
+    font-size: 1.15vw
 }
 
 .airgap-data-info{
@@ -126,14 +126,14 @@ body{
     margin-left: 1vw;
     margin-top: 6.3vw;
     width: 22vw;
-    height: 30vw;
+    height: 12vw;
 }
 
 .container-speed{
     border-radius: 1.3vw;
     height: 18vw;
     width: 40vw;
-    background-color: #e8e7e7;
+    background-color: #DCE3EB;
 
     display: flex;
     flex-flow: row;
@@ -153,7 +153,7 @@ body{
 }
 
 .Speed-img-edit{
-    background-color: #ED8A23;
+    background-color: #EE7623;
     border-radius: 100vw;
 
     margin-top: 1.2vw;
@@ -172,12 +172,12 @@ body{
 }
 
 .speed-data{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     width: 15vw;
     height: 10vw;
     border-style: solid;
-    border-color: #de7018;
-    color: #7d3411;
+    border-color: #003B4D;
+    color: #ab481a;
 
     margin-top: 1vw;
     margin-left: 1.3vw;
@@ -196,7 +196,7 @@ body{
 #speed-data p{
     margin-top: 1.8vw;
     margin-left: 1vw;
-    font-size: 1.2vw
+    font-size: 1.15vw
 }
 
 .speed-data-info{
@@ -207,14 +207,14 @@ body{
     margin-left: 1vw;
     margin-top: 6.3vw;
     width: 22vw;
-    height: 30vw;
+    height: 12vw;
 }
 
 .container-current{
     border-radius: 1.3vw;
     height: 18vw;
     width: 40vw;
-    background-color: #e8e7e7;
+    background-color: #DCE3EB;
 
     display: flex;
     flex-flow: row;
@@ -233,7 +233,7 @@ body{
 }
 
 .Current-img-edit{
-    background-color: #ED8A23;
+    background-color: #EE7623;
     border-radius: 100vw;
 
     margin-top: 1.2vw;
@@ -252,12 +252,12 @@ body{
 }
 
 .current-data{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     width: 15vw;
     height: 10vw;
     border-style: solid;
-    border-color: #de7018;
-    color: #7d3411;
+    border-color: #003B4D;
+    color: #ab481a;
 
     margin-top: 1vw;
     margin-left: 1.3vw;
@@ -277,7 +277,7 @@ body{
 #current-data p{
     margin-top: 1.8vw;
     margin-left: 1vw;
-    font-size: 1.2vw
+    font-size: 1.15vw
 }
 
 
@@ -289,14 +289,14 @@ body{
     margin-left: 1vw;
     margin-top: 6.3vw;
     width: 22vw;
-    height: 30vw;
+    height: 12vw;
 }
 
 .container-voltage{
     border-radius: 1.3vw;
     height: 18vw;
     width: 40vw;
-    background-color: #e8e7e7;
+    background-color: #DCE3EB;
 
     display: flex;
     flex-flow: row;
@@ -317,7 +317,7 @@ body{
 }
 
 .Voltage-img-edit{
-    background-color: #ED8A23;
+    background-color: #EE7623;
     border-radius: 100vw;
 
     margin-top: 1.2vw;
@@ -336,12 +336,12 @@ body{
 }
 
 .voltage-data{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     width: 15vw;
     height: 10vw;
     border-style: solid;
-    border-color: #de7018;
-    color:#7d3411;
+    border-color: #003B4D;
+    color: #ab481a;
 
     margin-top: 1vw;
     margin-left: 1.3vw;
@@ -361,7 +361,7 @@ body{
 #voltage-data p{
     margin-top: 1.8vw;
     margin-left: 1vw;
-    font-size: 1.2vw
+    font-size: 1.15vw
 }
 
 .voltage-data-info{
@@ -372,5 +372,5 @@ body{
     margin-left: 1vw;
     margin-top: 6.3vw;
     width: 22vw;
-    height: 30vw;
+    height: 12vw;
 }
